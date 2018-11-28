@@ -133,3 +133,6 @@ def send_posts_img(img):
                     logging.info('Image: ' + img['photo_604'])
 if __name__ == '__main__':
     check_posts_vk()
+    while True:
+        check_posts_vk()
+        sleep(30)
