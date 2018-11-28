@@ -4,7 +4,7 @@ import vk_api
 import telebot
 import configparser
 import logging
-
+from time import sleep
 
 
 
